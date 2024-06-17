@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Hello World Extension",
+    "version": "1.0",
+    "description": "A simple Chrome extension to store and retrieve a value using chrome.storage API.",
+    "permissions": ["storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
